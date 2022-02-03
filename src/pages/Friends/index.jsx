@@ -17,7 +17,7 @@ import { RiChatNewLine } from 'react-icons/ri';
 import { HCG } from "../../components/hexacolor_generator";
 
 function Friends () {
-  const online = friends.filter((friend) => friend.activity === 'online' || friend.activity === "nodisturb");
+  const online = friends.filter((friend) => friend.activity !== "invisible" & friend.activity !== "offline");
   const colors = HCG(online.length);
 
   return (
