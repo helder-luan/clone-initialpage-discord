@@ -1,0 +1,63 @@
+.card {
+  margin-top: 1rem;
+  height: 4rem;
+  border-top: 1px solid var(--shadow-smooth);
+  margin-right: 1rem;
+  padding: 0.4rem;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.card:hover {
+  background: var(--shadow-smooth);
+}
+
+.card:hover .friend-options button {
+  background: var(--primary);
+}
+
+.about-friend {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-friend .nickname {
+  color: var(--primary-text);
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.about-friend .nickname .hashtag {
+  display: none;
+  color: var(--secondary-text);
+  font-size: 0.875rem;
+  font-weight: normal;
+}
+
+.about-friend .status {
+  color: var(--secondary-text);
+  font-size: 0.875rem;
+}
+
+.card:hover .about-friend h3 span {
+  display: inline-block;
+}
+
+.friend-options {
+  display: flex;
+  align-items: center;
+}
+
+.friend-options button {
+  margin: 0 0.3rem;
+  padding: 0.625rem;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  border-radius: 50%;
+  background: var(--secondary);
+  color: var(--secondary-text);
+}

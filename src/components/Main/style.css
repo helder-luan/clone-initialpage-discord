@@ -1,0 +1,7 @@
+main {
+  margin-top: 1.5rem;
+  display: grid;
+  grid-template-columns: 70px 240px auto;
+  background: var(--primary);
+  overflow: hidden;
+}

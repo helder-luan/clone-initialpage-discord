@@ -1,0 +1,39 @@
+.servers-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--primary);
+  height: 100vh;
+}
+
+.servers-bar .server,
+.servers-bar button {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin: 0.5rem auto;
+  color: var(--primary-text);
+}
+
+.servers-bar .home {
+  border-radius: 35%;
+  background: var(--default);
+}
+
+.servers-bar .add-server,
+.servers-bar .search-servers {
+  background: var(--secondary);
+  color: var(--secondary-button);
+  font-size: 1.5rem;
+}
+
+.servers-bar span {
+  width: 2rem;
+  height: 1px;
+  background: var(--secondary);
+}

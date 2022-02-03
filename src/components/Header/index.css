@@ -1,0 +1,43 @@
+header {
+  height: 1.5rem;
+  width: 100%;
+  background: var(--primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}
+
+header span {
+  color: var(--secondary-text);
+  font: normal bold 11px 'Mochiy Pop P One', sans-serif;
+}
+
+header .window-buttons {
+  width: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .window-buttons button {
+  height: 1.5rem;
+  width: 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1;
+  border: 0;
+  background: transparent;
+  color: var(--primary-text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: auto;
+}
+
+header .window-buttons button:last-child:hover {
+  background: var(--danger);
+}
